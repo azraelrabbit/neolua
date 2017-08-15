@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>NeoCmd.Core</RootNamespace>
+    <StartupObject>NeoCmd.Core.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NeoLua.Standard\NeoLua.Standard.csproj" />
+    <ProjectReference Include="..\NeoLuaD.Standard\NeoLuaD.Standard.csproj" />
+  </ItemGroup>
+
+</Project>
